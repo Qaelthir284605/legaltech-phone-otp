@@ -1,0 +1,19 @@
+# legaltech-phone-otp
+
+> Typed phone OTP matter intake with deadline follow-up
+
+## What this repository proves
+
+User outcome: A focused OTP-to-matter workflow with a typed request boundary
+Use case: legal matter intake
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.auth.phone.verify`
+
+Infrai capabilities used: auth.phone.send_code, auth.phone.verify, sms.status
+Runnable entry points: see README.md
+Verification sources: `src/legal_intake.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

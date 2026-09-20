@@ -1,0 +1,9 @@
+{
+  "name": "legaltech-phone-otp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/legal_intake.ts", "test": "tsx src/legal_intake.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3"}
+}
